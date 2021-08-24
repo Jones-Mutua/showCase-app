@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_view_project_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/vivo_watermark_pictureunlock_glc_49599_user0_pictureunlock"
+            android:cropToPadding="false"
+            android:src="" />
+
+        <TextView
+            android:id="@+id/text_view_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_view_project_icon"
+            android:layout_toEndOf="@id/image_view_project_icon"
+            android:fontFamily="sans-serif-black"
+            android:lineSpacingExtra="10sp"
+            android:text="1.Road Trip With Comfy "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_title"
+            android:layout_toEndOf="@id/image_view_project_icon"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingExtra="8sp"
+            android:text="Do it the difficult way "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/teal_700"
+            android:textSize="17sp"
+            android:textStyle="italic"
+            android:typeface="normal"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+
+        <ImageView
+            android:id="@+id/image_view_project"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/image_view_project_icon"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/vivo_watermark_pictureunlock_glc_49830_user0_pictureunlock"
+            android:cropToPadding="false"
+            android:src="" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_view_project"
+            android:layout_toEndOf="@id/image_view_project_icon"
+            android:fontFamily="sans-serif-black"
+            android:lineSpacingExtra="10sp"
+            android:text="2. Places to do "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/text_view_description_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_toEndOf="@id/image_view_project"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingExtra="8sp"
+            android:text="joltig  well "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/teal_700"
+            android:textSize="17sp"
+            android:textStyle="italic"
+            android:typeface="normal"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+        <ImageView
+            android:id="@+id/image_view_project_card"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/image_view_project"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/vivo_watermark_pictureunlock_glc_49830_user0_pictureunlock"
+            android:cropToPadding="false"
+            android:src="" />
+
+        <TextView
+            android:id="@+id/text_view_title_viw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_view_project_card"
+            android:layout_toEndOf="@id/image_view_project_icon"
+            android:fontFamily="sans-serif-black"
+            android:lineSpacingExtra="10sp"
+            android:text="3. Best Expirience in North "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/text_view_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_title_viw"
+            android:layout_toEndOf="@id/image_view_project_icon"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingExtra="8sp"
+            android:text="Somewhere in north best moves probably "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/teal_700"
+            android:textSize="17sp"
+            android:textStyle="italic"
+            android:typeface="normal"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+
+        <ImageView
+            android:id="@+id/image_view_card"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/image_view_project_card"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/vivo_watermark_pictureunlock_glc_49830_user0_pictureunlock"
+            android:cropToPadding="false"
+            android:src="" />
+
+        <TextView
+            android:id="@+id/text_view_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_view_card"
+            android:layout_toEndOf="@id/image_view_project_icon"
+            android:fontFamily="sans-serif-black"
+            android:lineSpacingExtra="10sp"
+            android:text="4. Somewhere "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_title_view"
+            android:layout_toEndOf="@id/image_view_project_icon"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingExtra="8sp"
+            android:text="Hire a car from the westcoast of Africa,and travel to East "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/teal_700"
+            android:textSize="17sp"
+            android:textStyle="italic"
+            android:typeface="normal"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
